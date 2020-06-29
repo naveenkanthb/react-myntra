@@ -10,6 +10,8 @@ import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions'
 import { connect } from 'react-redux'
+import CartDropdowm from './components/cart-dropdown/cart-dropdown.components.jsx'
+
 
 class App extends React.Component {
 
